@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<link href="css/styles.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    
+    
+    
+    
+    <title>RBC Heros: Blood Donors Database Management System</title>
+</head>
+<body>
+    <h1 style="text-align: center;"><b>RBC Heros:</b>&nbsp;Become a Real Life Hero Donote Blood Help People and Raise Humanity!</h1>
+    
+    <marquee behavior="scroll" direction="left" scrollamount="4"><b>Alert!! Do not pay any 
+        amount to any person promising supply of blood packets or arranging donors. 
+        Inform rbcheros.org at Gmail: rbcheros@gmail.com  
+        so that we can initiate police/legal action. We have received complaints
+        of middlemen seeking money - RBC Heros has no agents, 
+        does not arrange blood/donors and does not collect money for any service.
+        Because helping people for free is the best income.</b>
+    </marquee>
+    <form style="margin-left: 20px;">
+    <h2><b>Registered User/Login</b></h2>
+    <div class="form-group">
+        
+    
+<
+
+        <th><h2>Search for a Blood Donor</h2></th>
+        <tbody>
+        				<div class="container">
+            <tr><label>
+               <td>Blood Group:
+              
+              <select name="dpBloodGroup" id="dpBloodGroup" class="textarea">
+                     <option value="Select">----Select----</option>
+                     <option value="A+">A+</option>
+                     <option value="A-">A-</option>
+                     <option value="A1+">A1+</option>
+                     <option value="A1-">A1-</option>
+                     <option value="A1B+">A1B+</option>
+                     <option value="A1B-">A1B-</option>
+                     <option value="A2+">A2+</option>
+                     <option value="A2-">A2-</option>
+                     <option value="A2B+">A2B+</option>
+                     <option value="A2B-">A2B-</option>
+                     <option value="AB+">AB+</option>
+                     <option value="AB-">AB-</option>
+                     <option value="B+">B+</option>
+                     <option value="B-">B-</option>
+                     <option value="O+">O+</option>
+                     <option value="O-">O-</option>
+                  </select>
+               </td></label>
+            </tr></div>
+            <div class="container">
+            <tr><label>
+               <td class="style1">Select Country:
+               
+                  <select name="dpCountry" id="dpCountry" class="textarea" onchange="javascript:WebForm_DoCallback('__Page',document.getElementById('dpCountry').options[document.getElementById('dpCountry').selectedIndex].value,ParentcategoryContent,null,null,false)">
+                     <option value="Select">----Select----</option>
+                     <option value="1|dpCountry">INDIA</option>
+                     <option value="2|dpCountry">YEMEN-اليمن</option>
+                     <option value="3|dpCountry">NEPAL</option>
+                     <option value="4|dpCountry">SRI LANKA</option>
+                     <option value="5|dpCountry">BANGLADESH</option>
+                     <option value="7|dpCountry">OMAN</option>
+                  </select>
+               </td>
+            </tr></div>
+            <div class="container" >
+            <tr>
+               <td>Select State:
+                   
+                  <select name="dpState" id="dpState" class="textarea" onchange="javascript:WebForm_DoCallback('__Page',document.getElementById('dpState').options[document.getElementById('dpState').selectedIndex].value,categoryContent,null,null,false)">
+                     <option value="Select">----Select----</option>
+                  </select>
+                  
+               </td></label>
+            </tr></div>
+            <div class="container">
+            
+            <tr><label>
+               <td style="HEIGHT: 1px">Select District:
+               
+                  
+                     <select name="dpDistrict" id="dpDistrict" class="textarea" onchange="javascript:WebForm_DoCallback('__Page',document.getElementById('dpDistrict').options[document.getElementById('dpDistrict').selectedIndex].value,subCategoryContent,null,null,false)">
+                        <option value="Select">----Select----</option>
+                     </select>
+                 
+               </td>
+            </tr></div>
+            <div class="container">
+            <tr>
+               <td>Select City:
+     
+                  
+                     <select name="dpCity" id="dpCity" class="textarea">
+                        <option value="Select">----Select----</option>
+                     </select>
+                 
+               </td></label>
+            </tr>
+            </div><div class="container">
+            <tr><label>
+               <td>
+                  <strong><font color="green">Select Covid-19 Plasma donor:</font></strong>
+               </td>
+               <td>
+                  <select name="dpCovidPlasmaDonor" id="dpCovidPlasmaDonor" class="textarea">
+                     <option value="0">ALL</option>
+                     <option value="Y">Yes</option>
+                  </select>
+               </td></label>
+            </tr></div>
+            <br>
+            <tr>
+               <td><input type="submit" name="btnSearchDonor" value="Submit" onclick="javascript:return searchBloodDonorValidation();" id="btnSearchDonor" class="textarea"></td>
+            </tr>
+            
+         </tbody>
+    </table>
+    <table width="100%" style="margin-left: -5px;">
+        <th><a href=""><h2>Become a Blood Donor<br>Register Here</h2></a></th>
+        <th><a href=""><h2>Check, Who can Donate?</h2></a></th>
+        <th><a href=""><h2>Blood Donation Pros and Cons</h2></a></th>
+        <th><a href=""><h2>About Us</h2></a></th>
+    </table>
+</body>
+</html>
